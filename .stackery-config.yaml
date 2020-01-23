@@ -1,0 +1,2 @@
+stack-name: nested-sam
+template-path: template.yaml
