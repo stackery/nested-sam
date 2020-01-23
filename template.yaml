@@ -11,7 +11,7 @@ Resources:
       Location:
         ApplicationId: arn:aws:serverlessrepo:us-east-1:173334852312:applications/alexa-skills-kit-nodejs-triviaskill
         SemanticVersion: 2.0.3
-  TopLevelFunction:
+  Function:
     Type: AWS::Serverless::Function
     Properties:
       FunctionName: !Sub ${AWS::StackName}-TopLevelFunction
